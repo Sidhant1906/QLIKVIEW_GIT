@@ -1,0 +1,13 @@
+Directory;
+LOAD OrderDate, 
+     Region, 
+     Manager, 
+     SalesMan, 
+     Item, 
+     Units, 
+     Unit_price, 
+     Sale_amt
+FROM
+[C:\Users\18167\Downloads\SaleData.xlsx]
+(ooxml, embedded labels, table is [Sales Data]);
+
